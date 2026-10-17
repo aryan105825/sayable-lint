@@ -1,0 +1,19 @@
+{
+  "sayable-pantry": {
+    "whats_expiring": {"within_days": 3},
+    "count_item": {"name": "milk"}
+  },
+  "baseline-pantry": {
+    "get_inventory": {},
+    "get_expiring": {"days": 7}
+  },
+  "mcp-streamable-http-demo": {
+    "start-notification-stream": {"interval": 0.1, "count": 1, "caller": "sayable"}
+  },
+  "mcp-streamable-http-stateless-demo": {
+    "start-notification-stream": {"interval": 0.1, "count": 1, "caller": "sayable"}
+  },
+  "mcp-conformance-test-server": {
+    "test_simple_text": {}
+  }
+}
